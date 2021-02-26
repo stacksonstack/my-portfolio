@@ -4,7 +4,7 @@ import Project from "../Components/Project";
 function ProjectContainer() {
   return (
     <div>
-      {Projects.map((proj) => (
+      {Projects().map((proj) => (
         <Project
           title={proj.title}
           picture={proj.picture}
