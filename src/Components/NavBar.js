@@ -4,17 +4,18 @@ function NavBar() {
   return (
     <div>
       <ul className="nav" id="nav">
-        <NavLink to="/"><li>Home</li></NavLink>
-        
+        <NavLink to="/">
+          <li>Home</li>
+        </NavLink>
         <NavLink to="/about">
           <li>About</li>
         </NavLink>
-        {/* <NavLink > */}
+        <NavLink to="/projects">
           <li>Projects</li>
-        {/* </NavLink> */}
-        {/* <NavLink> */}
+        </NavLink>
+        <NavLink to="/blogs">
           <li>Blogs</li>
-        {/* </NavLink> */}
+        </NavLink>
         <NavLink to="/contact">
           <li>Contact</li>
         </NavLink>
