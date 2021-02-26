@@ -1,7 +1,7 @@
 function NavBar() {
     return (
       <div >
-          <ul>
+          <ul className="nav" id="nav">
               <li>Home</li>
               <li>About</li>
               <li>Projects</li>
@@ -10,6 +10,6 @@ function NavBar() {
           </ul>
       </div>
     );
-  }
-  
-  export default NavBar;
+}
+
+export default NavBar;
