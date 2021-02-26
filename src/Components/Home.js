@@ -1,3 +1,4 @@
+import Icons from './Icons'
 function Home(){
     return(
         <div>
@@ -5,10 +6,7 @@ function Home(){
             <p>I'm a NYC based full-stack developer
                 focusing on creating clean & user friendly experiences</p>
             <button>Check out my work (arrow here) </button>
-            <p>Email</p>
-            <p>LinkedIn</p>
-            <p>Medium</p>
-            <p>Github</p>
+            <Icons/>
         </div>
     )
 }
