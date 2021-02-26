@@ -3,6 +3,24 @@ html, body{
   width: 100%;
 }
 
+.icon{
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer{
+  background-color: blanchedalmond; 
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+
 .nav {
   height: fit-content;
   width: 100%;
