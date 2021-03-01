@@ -4,9 +4,9 @@ function Contact(){
             <h1>Contact</h1>
             <p>Have a question or want to work together?</p>
             <form>
-                <input placeholder="Name" />
-                <input placeholder="Email" />
-                <input placeholder="Your Message" />
+                <input placeholder="Name" name="name" />
+                <input placeholder="Email" name="email" />
+                <input placeholder="Your Message" name="message" />
                 <button>Submit</button>
             </form>
         </div>
