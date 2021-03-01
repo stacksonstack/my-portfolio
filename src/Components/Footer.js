@@ -1,7 +1,7 @@
 import Icons from './Icons'
 function Footer(){
     return(
-        <div class="footer">
+        <div className="footer">
             <Icons />
             <p>Stacey Carrillo &#169; 2020</p>
         </div>
