@@ -1,6 +1,6 @@
 function About(){
     return(
-        <div>
+        <div className="about">
             <h1>About</h1>
             <p> Html | Javascript | CSS | React | Ruby on Rails</p>
             <p>Why do I love to code?</p>

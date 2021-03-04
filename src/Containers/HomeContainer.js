@@ -3,7 +3,7 @@ import Home from "../Components/Home";
 
 function HomeContainer() {
     return (
-      <div>
+      <div className="homeContainer">
         <Route exact path="/" render={() => <Home />} />
        
     

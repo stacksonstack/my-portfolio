@@ -1,9 +1,10 @@
 function Blog({title, picture, date, blurb}){
     return(
-        <div>
-            <h1>{title}</h1>
+        <div class="blog-div">
+            <h1 id="blog-title">{title}</h1>
             <p>{date}</p>
-            <p>{blurb}</p>
+            <p>{picture}</p>
+            <p>Click Here To Read More</p> 
         </div>
     )
 }

@@ -3,7 +3,7 @@ function Footer(){
     return(
         <div className="footer">
             <Icons />
-            <p>Stacey Carrillo &#169; 2020</p>
+            <p id="footer-name">Stacey Carrillo &#169; 2020</p>
         </div>
     )
 }

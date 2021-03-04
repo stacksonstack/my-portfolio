@@ -4,8 +4,8 @@ import Blog from '../Components/Blog';
 function BlogContainer(){
    
     return(
-        <div>
-            {Blogs().map((blog)=> <Blog blurb={blog.blurb}/>)}
+        <div class="blog-container" >
+            {Blogs().map((blog)=> <Blog blurb={blog.blurb} title={blog.title} date={blog.date}/>)}
         </div>
     )
 }
