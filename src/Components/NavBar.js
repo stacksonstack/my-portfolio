@@ -5,19 +5,19 @@ function NavBar() {
     <div>
       <ul className="nav" id="nav">
         <NavLink to="/">
-          <li>Home</li>
+          <li className="current">Home</li>
         </NavLink>
         <NavLink to="/about">
-          <li>About</li>
+          <li className="current">About</li>
         </NavLink>
         <NavLink to="/projects">
-          <li>Projects</li>
+          <li className="current">Projects</li>
         </NavLink>
         <NavLink to="/blogs">
-          <li>Blogs</li>
+          <li className="current">Blogs</li>
         </NavLink>
         <NavLink to="/contact">
-          <li>Contact</li>
+          <li className="current">Contact</li>
         </NavLink>
       </ul>
     </div>

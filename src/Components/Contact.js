@@ -14,13 +14,13 @@ function Contact(){
         }
     return(
         <div className="contact-form">
-            <h1>Contact</h1>
+            <h1 className="title-text" >Contact</h1>
             <p>Have a question or want to work together?</p>
             <form onSubmit={sendEmail}>
                 <input placeholder="Name" name="name" /><br/>
                 <input placeholder="Email" name="email" /><br/>
                 <input placeholder="Your Message" name="message" /><br/>
-                <button type="submit">Submit</button>
+                <button type="submit" id="contact-btn">Send Email</button>
             </form>
         </div>
     )

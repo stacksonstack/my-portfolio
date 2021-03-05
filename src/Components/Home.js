@@ -8,7 +8,7 @@ function Home(props) {
       
     <div className="home">
     <div id="home-name">
-    <h1 id="home-name-text">Stacey Carrillo</h1>
+    <h1 className="title-name-text">Stacey Carrillo</h1>
   </div>
       <p>
         I'm a NYC based full-stack developer focusing on creating clean & user
