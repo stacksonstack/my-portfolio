@@ -4,21 +4,30 @@ function NavBar() {
   return (
     <div>
       <ul className="nav" id="nav">
-        <NavLink to="/">
-          <li className="current">Home</li>
-        </NavLink>
-        <NavLink to="/about">
-          <li className="current">About</li>
-        </NavLink>
-        <NavLink to="/projects">
-          <li className="current">Projects</li>
-        </NavLink>
-        <NavLink to="/blogs">
-          <li className="current">Blogs</li>
-        </NavLink>
-        <NavLink to="/contact">
-          <li className="current">Contact</li>
-        </NavLink>
+        <li>
+          <NavLink exact to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/about">
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/projects">
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/blogs">
+            Blogs
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/contact">
+            Contact
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
