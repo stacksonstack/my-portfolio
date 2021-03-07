@@ -4,7 +4,6 @@ import Project from "../Components/Project";
 function ProjectContainer() {
   return (
     <>
-    <h1 className="title-text">My Projects</h1>
     <div className="project-container">
       {Projects().map((proj) => (
         <Project

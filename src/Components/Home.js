@@ -5,7 +5,7 @@ function Home(props) {
   const history = useHistory();
   const navigateTo = () => history.push("/about");
   return (
-    <div className="home">
+    <div  className="floating" id="home">
     <div id="home-name">
     <h1 className="title-name-text">Stacey Carrillo</h1>
   </div>

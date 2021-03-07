@@ -2,7 +2,7 @@ export default function projects() {
   return [
     {
       title: "Nook's Bar",
-      picture: "Url",
+      picture: "/ProjectImages/nooksBar.png",
       description:
         "This app enables customers to browse through our large collection of beers, save beers to their personalized list, and submit new ones! The app includes a Mix & Match Card game to test your memory skills for fun!",
       frontend_link: "https://github.com/stacksonstack/nooks-bar-frontend",
@@ -12,7 +12,7 @@ export default function projects() {
     },
     {
       title: "My Poke Party",
-      picture: "Url",
+      picture: "/ProjectImages/pokePartyt.png",
       description:
         "With Poke Party, pokemon fans have the opportunity to create and share their own pokemon party with other fans all around the world! ",
       frontend_link: "https://github.com/stacksonstack/MyPokeParty",
