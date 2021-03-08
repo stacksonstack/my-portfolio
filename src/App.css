@@ -12,16 +12,85 @@ a:hover p {
   color: #5754a8;
   text-decoration: underline;
 }
+.project-div{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-img {
+.project-div{
+  min-height: 800px;
+}
+
+.project-div{
+  width: 50%;
+}
+
+.story{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#story-image, #story-image2{
+  position: relative;
+}
+#story-text, .story-text2{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+#story-text{
+  animation-name: story;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+#laguardia{
+  opacity: 20%;
+  animation-name: storyImage;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes storyImage {
+  0% {
+    opacity: 100%;
+  }
+  50%{
+    opacity: 100%;
+  }
+  100% {
+    opacity: 20%;
+  }
+}
+@keyframes story {
+  0% {
+    opacity: 0%;
+  }
+  50%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+#project-image{
   width: 500px;
   height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 20px;
 }
 
+img{
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 p,
 input,
 .nav li {
@@ -69,7 +138,7 @@ form {
   width: 50%;
 }
 
-/* .project-container, */
+
 .blog-container {
   display: flex;
   flex-wrap: wrap;
@@ -77,7 +146,6 @@ form {
   padding-bottom: 100px;
 }
 
-/* .project-div, */
 .blog-div {
   width: 200px;
   margin: 20px;
@@ -88,24 +156,16 @@ form {
   border-radius: 3px;
 }
 
-.project-div{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 #blog-title {
   font-size: 20px;
 }
 
+
 #home,
-.contact-form,
-.about {
+.contact-form
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +199,6 @@ form {
   animation-name: animatedName;
   animation-duration: 5s;
   display: block;
-  position: relative;
   animation-iteration-count: 1;
   font-size: 20px;
 }
@@ -148,7 +207,6 @@ form {
   animation-name: animatedText;
   animation-duration: 5s;
   display: block;
-  position: relative;
   animation-iteration-count: 1;
   animation-delay: .5s;
   font-size: 20px;

@@ -12,7 +12,7 @@ export default function projects() {
     },
     {
       title: "My Poke Party",
-      picture: "/ProjectImages/pokePartyt.png",
+      picture: "/ProjectImages/pokeParty.png",
       description:
         "With Poke Party, pokemon fans have the opportunity to create and share their own pokemon party with other fans all around the world! ",
       frontend_link: "https://github.com/stacksonstack/MyPokeParty",
@@ -22,7 +22,7 @@ export default function projects() {
     },
     {
       title: "Dine-amic Recipes",
-      picture: "Url",
+      picture: "/ProjectImages/dineamicRecipes.png",
       description:
         "This app enables customers to find new and easy recipes to make at home, save recipes to their own personalized list, and upload any new recipes to share on the others on the application!",
       frontend_link: "https://github.com/stacksonstack/dineamic-recipes-frontend",
@@ -32,7 +32,7 @@ export default function projects() {
     },
     {
         title: "Calorie Tracker",
-        picture: "Url",
+        picture: "/ProjectImages/calorieTracker.png",
         description:
           "Calorie Tracker calculates the Body Mass Index of a user based on their weight, height, and age input. Based on the result we reccomend a daily calorie count. If you'd like to start keeping track of your daily calorie intake then Calorie Tracker is the application for you!",
         frontend_link: "https://github.com/stacksonstack/calorie-tracker",
