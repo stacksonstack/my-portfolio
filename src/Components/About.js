@@ -19,9 +19,16 @@ function About() {
           <img 
           id="story-image2"
             src="/ProjectImages/flatironSchool.png"
-            alt="school  building with laGuardia logo on the side"
+            alt="city buildings with flatiron school logo"
           />
           <p id="story-text2">After graduating LaGuardia I attended Flatiron School</p>
+          <img 
+          id="story-image3"
+            src="/ProjectImages/graduation.png"
+            alt="students graduating"
+          />
+          <p id="story-text3">I'm currently working to improve my skills as a front end developer by practicing algorithms on websites like Leet Code.
+          I've also began to refactor past projects and plan to build a beatles fan site in React. </p>
         </div>
          
     </div>

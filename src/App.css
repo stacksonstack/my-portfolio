@@ -12,19 +12,49 @@ a:hover p {
   color: #5754a8;
   text-decoration: underline;
 }
+.project-container{
+  min-height: 700px;
+}
 .project-div{
-  display: block;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: grid;
+  grid-template-areas: 
+  "pTitle pTitle"
+  "pImg pDesc"
+  "pImg pLinks";
+  grid-template-rows: 150px 150px 150px;
 }
 
-.project-div{
-  min-height: 800px;
+#project-image{
+  width: 400px;
+  height: 250px;
+  padding-bottom: 20px;
+}
+.proj-title{
+  grid-area: pTitle;
+}
+.proj-img{
+  grid-area: pImg;
+  width: 500px;
+}
+.proj-desc{
+  grid-area: pDesc;
+}
+#desc, #links{
+  text-align: start;
+}
+.proj-links{
+  grid-area: pLinks;
 }
 
-.project-div{
-  width: 50%;
+
+#blog-img{
+  width: 200px;
+  height: 200px;
 }
+
 
 .story{
   display: flex;
@@ -34,77 +64,105 @@ a:hover p {
 #story-image{
   position: relative;
 }
-#story-text, #story-text2, #story-image2{
+#story-text, #story-text2, #story-image2, #story-text3, #story-image3{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-#story-text, #story-text2{
+#story-text, #story-text2, #story-text3{
   width: 100%;
 }
 #story-text{
   opacity: 0%;
   animation-name: storyText;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
 #story-text2{
   opacity: 0%;
   animation-name: storyText2;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
 
-#story-image2{
+#story-text3{
   opacity: 0%;
-  animation-name: storyImage2;
-  animation-duration: 20s;
+  animation-name: storyText3;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
-
 #laguardia{
   opacity: 0%;
   animation-name: storyImage;
-  animation-duration: 20s;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+#story-image2{
+  opacity: 0%;
+  animation-name: storyImage2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+#story-image3{
+  opacity: 0%;
+  animation-name: storyImage3;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
 
 @keyframes storyImage {
   0% { opacity: 100%;}
-  25% { opacity: 20%;}
-  50% { opacity: 0%;}
-  75% { opacity: 0%;}
-  100% { opacity: 0%; }
+  10% { opacity: 100%;}
+  11%{ opacity: 20%;}
+  33%{ opacity: 20%;}
+  34%{ opacity: 0%;}
+  100% { opacity: 0%;}
 }
 @keyframes storyText {
   0% { opacity: 0%;}
-  25% { opacity: 100%;}
-  50% { opacity: 0%;}
-  75% { opacity: 0%;}
-  100% { opacity: 0%; }
+  10%{ opacity: 0%;}
+  11%{ opacity: 100%;}
+  33%{ opacity: 100%;}
+  34%{ opacity: 0%;}
+  100% { opacity: 0%;}
 }
 @keyframes storyImage2 {
   0% { opacity: 0%;}
-  25% { opacity: 0%;}
-  50% { opacity: 100%;}
-  75% { opacity: 20%;}
-  100% { opacity: 0%; }
+  33% { opacity: 0%;}
+  34% { opacity: 100%;}  
+  43%{ opacity: 100%;}
+  44%{ opacity: 20%;}
+  66%{opacity: 20%;}
+  67%{opacity: 0%;}
+  100% { opacity: 0%;}
 }
 @keyframes storyText2 {
   0% { opacity: 0%;}
-  25% { opacity: 0%;}
-  50% { opacity: 0%;}
-  75% { opacity: 100%;}
-  100% { opacity: 0%; }
+  43%{opacity: 0%;}
+  44%{opacity: 100%;}
+  66%{opacity: 100%;}
+  67%{opacity: 0%;}
+  100% { opacity: 0%;}
+}
+@keyframes storyImage3 {
+  0% { opacity: 0%;}
+  66%{opacity: 0%;}
+  67%{opacity: 100%;}
+  76%{ opacity: 100%;}
+  77%{ opacity: 20%;}
+  99% { opacity: 20%;}
+  100%{opacity: 0%;}
+}
+@keyframes storyText3 {
+  0% { opacity: 0%;}
+  76%{opacity: 0%;}
+  77%{ opacity: 100%;}
+  99%{opacity: 100%;}
+  100% { opacity: 0%;}
 }
 
-#project-image{
-  width: 500px;
-  height: 300px;
-  padding-bottom: 20px;
-}
 
 img{
   width: 400px;
@@ -121,7 +179,7 @@ input,
 
 #keep-scrolling{
   color:#5754a8;
-  font-size: 10px;
+  font-size: 40px;
 }
 
 button {
@@ -311,7 +369,7 @@ form {
   padding-right: 10px;
 }
 
-.icon:hover {
+.icon:hover, #blog-date {
   color: #5754a8;
 }
 

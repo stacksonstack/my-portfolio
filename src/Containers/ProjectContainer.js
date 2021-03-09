@@ -4,7 +4,6 @@ import Project from "../Components/Project";
 function ProjectContainer() {
   return (
     <>
-    <div className="project-container">
       {Projects().map((proj) => (
         <Project
           key={proj.title}
@@ -16,7 +15,6 @@ function ProjectContainer() {
           demo_link={proj.demo_link}
         />
       ))}
-    </div>
     </>
   );
 }

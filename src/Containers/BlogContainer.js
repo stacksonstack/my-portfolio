@@ -7,7 +7,7 @@ function BlogContainer(){
         <>
         <h1 className="title-text">My Blogs</h1>
         <div class="blog-container" >
-            {Blogs().map((blog)=> <Blog key={blog.title} blurb={blog.blurb} title={blog.title} date={blog.date}/>)}
+            {Blogs().map((blog)=> <Blog key={blog.title} picture={blog.picture} blurb={blog.blurb} title={blog.title} date={blog.date} link={blog.link} />)}
         </div>
         </>
     )
