@@ -16,14 +16,14 @@ function About() {
             for my Intro to Computer Science which taught the basics of C++ and
             Computer Science concepts.
           </p>
-        </div>
-          <div id="story-image2">
           <img 
+          id="story-image2"
             src="/ProjectImages/flatironSchool.png"
             alt="school  building with laGuardia logo on the side"
           />
-          <p className="story-text2">After graduating LaGuardia I attended Flatiron School</p>
-          </div>
+          <p id="story-text2">After graduating LaGuardia I attended Flatiron School</p>
+        </div>
+         
     </div>
     </div>
   );

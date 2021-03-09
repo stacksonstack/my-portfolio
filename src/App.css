@@ -31,51 +31,73 @@ a:hover p {
   flex-wrap: wrap;
   justify-content: center;
 }
-#story-image, #story-image2{
+#story-image{
   position: relative;
 }
-#story-text, .story-text2{
-  position: absolute;
+#story-text, #story-text2, #story-image2{
+position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-
+#story-text, #story-text2{
+  width: 100%;
+}
 #story-text{
-  animation-name: story;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
+  opacity: 0%;
+  animation-name: storyText;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#story-text2{
+  opacity: 0%;
+  animation-name: storyText2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#story-image2{
+  opacity: 0%;
+  animation-name: storyImage2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 #laguardia{
-  opacity: 20%;
+  opacity: 0%;
   animation-name: storyImage;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes storyImage {
-  0% {
-    opacity: 100%;
-  }
-  50%{
-    opacity: 100%;
-  }
-  100% {
-    opacity: 20%;
-  }
+  0% { opacity: 100%;}
+  25% { opacity: 20%;}
+  50% { opacity: 0%;}
+  75% { opacity: 0%;}
+  100% { opacity: 0%; }
 }
-@keyframes story {
-  0% {
-    opacity: 0%;
-  }
-  50%{
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
+@keyframes storyText {
+  0% { opacity: 0%;}
+  25% { opacity: 100%;}
+  50% { opacity: 0%;}
+  75% { opacity: 0%;}
+  100% { opacity: 0%; }
+}
+@keyframes storyImage2 {
+  0% { opacity: 0%;}
+  25% { opacity: 0%;}
+  50% { opacity: 100%;}
+  75% { opacity: 20%;}
+  100% { opacity: 0%; }
+}
+@keyframes storyText2 {
+  0% { opacity: 0%;}
+  25% { opacity: 0%;}
+  50% { opacity: 0%;}
+  75% { opacity: 100%;}
+  100% { opacity: 0%; }
 }
 
 #project-image{
@@ -85,8 +107,8 @@ transform: translate(-50%, -50%);
 }
 
 img{
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
