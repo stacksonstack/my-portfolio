@@ -16,14 +16,14 @@ export default function Blogs(){
     {
         title: "Use Grid-Area and Grid-Template-Areas to Create a Responsive Website",
         link: "https://staceycarrillo.medium.com/how-to-use-grid-area-and-grid-template-columns-to-create-a-responsive-website-f0c2cded4c8e",
-        picture: "Url",
+        picture: "/ProjectImages/blogGrid.png",
         date: "Oct 21, 2020",
         blurb: "Learning to use grid can be a headache when you’re first starting out. Understanding a few concepts is key when creating your layout and knowing grid terminology is the first step on that journey."
     },
     {
         title: "5 Design Principles Every Web Developer Should Know To Create An Effective Landing Page And Website",
         link: "https://staceycarrillo.medium.com/5-design-principles-every-web-developer-should-know-to-create-an-effective-landing-page-and-website-7ea0d385c70f",
-        picture: "Url",
+        picture: "/ProjectImages/blogDesign.png",
         date: "Sept 30, 2020",
         blurb: "Just like art, web design can be subjective. So how can we create landing pages that won’t make a user click away? Well there's no real formula that you can follow that’ll appeal to everyone but there are a few design principles that will help your page look clean and appealing."
     },
