@@ -1,12 +1,12 @@
 import emailjs from 'emailjs-com'
-import APIkeys from '../AppData/APIkeys'
+import Email from '../AppData/Email'
 import Icons from './Icons'
 
 function Contact(){
 
     const sendEmail = (e) =>{
         e.preventDefault()
-        emailjs.sendForm('gmail', APIkeys.TEMPLATE_ID, e.target, APIkeys.USER_ID)
+        emailjs.sendForm('gmail', Email.TEMPLATE_ID, e.target, Email.USER_ID)
         .then(response => {
             alert('Message Sent, I\'ll get back to you shortly.', response.text)
         }, error => {
