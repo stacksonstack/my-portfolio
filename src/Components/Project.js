@@ -39,6 +39,7 @@ function Project({
             ) : null}
           </div>
         </div>
+        
         {title === "Scrambled" ? null : (
           <a href={nextProject}>
             <p id="keep-scrolling" className="floating">
