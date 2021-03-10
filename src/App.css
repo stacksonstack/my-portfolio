@@ -1,10 +1,13 @@
 html,
 body {
   margin: 0px;
-  width: 100%;
+  width: 100vw;
  
   background-image: url("/src/Images/HomeBackground1.jpg");
 }
+
+
+
 
 
 
@@ -13,7 +16,9 @@ a:hover p {
   text-decoration: underline;
 }
 .project-container{
-  min-height: 700px;
+  
+  height: 100vh;
+  width: 100vw;
 }
 .project-div{
   margin-left: auto;
@@ -41,12 +46,55 @@ a:hover p {
 }
 .proj-desc{
   grid-area: pDesc;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
 }
 #desc, #links{
   text-align: start;
 }
 .proj-links{
   grid-area: pLinks;
+}
+
+@media (max-width: 800px){
+  .project-div{
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: 
+    "pTitle"
+    "pImg" 
+    "pDesc"
+    "pLinks";
+    
+  }
+  #project-image{
+    width: 200px;
+    height: 150px;
+  }
+
+  .proj-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #desc, #links{
+    text-align: center;
+  }
+
+  .project-links{
+    display: flex;
+    justify-content: center;
+  }
+
+  #keep-scrolling{
+    margin-top: -130px;
+  }
+
+ 
 }
 
 
@@ -171,6 +219,11 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 p,
 input,
 .nav li {
@@ -215,7 +268,7 @@ input {
   height: 40px;
 }
 form {
-  width: 50%;
+  width: 400px;
 }
 
 
@@ -392,7 +445,7 @@ form {
 
 .nav {
   height: fit-content;
-  width: 100%;
+  width: 100vw;
   margin: 0px;
   border-bottom: 1px solid white;
   font-weight: bold;
