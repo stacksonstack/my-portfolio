@@ -161,54 +161,54 @@ transform: translate(-50%, -50%);
 }
 
 @keyframes storyImage {
-  0% { opacity: 100%;}
-  10% { opacity: 100%;}
-  11%{ opacity: 20%;}
-  33%{ opacity: 20%;}
-  34%{ opacity: 0%;}
-  100% { opacity: 0%;}
+  0% { opacity: 1;}
+  10% { opacity: 1;}
+  11%{ opacity: 0.2;}
+  33%{ opacity: 0.2;}
+  34%{ opacity: 0;}
+  100% { opacity: 0;}
 }
 @keyframes storyText {
-  0% { opacity: 0%;}
-  10%{ opacity: 0%;}
-  11%{ opacity: 100%;}
-  33%{ opacity: 100%;}
-  34%{ opacity: 0%;}
-  100% { opacity: 0%;}
+  0% { opacity: 0;}
+  10%{ opacity: 0;}
+  11%{ opacity: 1;}
+  33%{ opacity: 1;}
+  34%{ opacity: 0;}
+  100% { opacity: 0;}
 }
 @keyframes storyImage2 {
-  0% { opacity: 0%;}
-  33% { opacity: 0%;}
-  34% { opacity: 100%;}  
-  43%{ opacity: 100%;}
-  44%{ opacity: 20%;}
-  66%{opacity: 20%;}
-  67%{opacity: 0%;}
-  100% { opacity: 0%;}
+  0% { opacity: 0;}
+  33% { opacity: 0;}
+  34% { opacity: 1;}  
+  43%{ opacity: 1;}
+  44%{ opacity: .2;}
+  66%{opacity: .2;}
+  67%{opacity: 0;}
+  100% { opacity: 0;}
 }
 @keyframes storyText2 {
-  0% { opacity: 0%;}
-  43%{opacity: 0%;}
-  44%{opacity: 100%;}
-  66%{opacity: 100%;}
-  67%{opacity: 0%;}
-  100% { opacity: 0%;}
+  0% { opacity: 0;}
+  43%{opacity: 0;}
+  44%{opacity: 1;}
+  66%{opacity: 1;}
+  67%{opacity: 0;}
+  100% { opacity: 0;}
 }
 @keyframes storyImage3 {
-  0% { opacity: 0%;}
-  66%{opacity: 0%;}
-  67%{opacity: 100%;}
-  76%{ opacity: 100%;}
-  77%{ opacity: 20%;}
-  99% { opacity: 20%;}
-  100%{opacity: 0%;}
+  0% { opacity: 0;}
+  66%{opacity: 0;}
+  67%{opacity: 1;}
+  76%{ opacity: 1;}
+  77%{ opacity: .2;}
+  99% { opacity: .2;}
+  100%{opacity: 0;}
 }
 @keyframes storyText3 {
-  0% { opacity: 0%;}
-  76%{opacity: 0%;}
-  77%{ opacity: 100%;}
-  99%{opacity: 100%;}
-  100% { opacity: 0%;}
+  0% { opacity: 0;}
+  76%{opacity: 0;}
+  77%{ opacity: 1;}
+  99%{opacity: 1;}
+  100% { opacity: 0;}
 }
 
 
