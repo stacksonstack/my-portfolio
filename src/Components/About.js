@@ -46,7 +46,7 @@ function About() {
             practicing algorithms on websites like Leet Code & Code Wars. I've
             also begun to refactor my passion projects which feature a Beatles
             fan site written in React. I'm also always working to improve my
-            portfolio website. My next goal is to obtain my first position as a
+            portfolio website and make it 100% mobile friendly. My next goal is to obtain my first position as a
             front-end developer and work in a team of people who share my
             passion for building beautiful, user-friendly applications!{" "}
           </p>
