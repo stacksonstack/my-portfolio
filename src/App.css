@@ -109,6 +109,7 @@ a:hover p {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 #story-image{
   position: relative;
 }
@@ -125,40 +126,41 @@ transform: translate(-50%, -50%);
 #story-text{
   opacity: 0%;
   animation-name: storyText;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 #story-text2{
   opacity: 0%;
   animation-name: storyText2;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 
 #story-text3{
   opacity: 0%;
   animation-name: storyText3;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 #laguardia{
   opacity: 0%;
   animation-name: storyImage;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 #story-image2{
   opacity: 0%;
   animation-name: storyImage2;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 #story-image3{
   opacity: 0%;
   animation-name: storyImage3;
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
+
 
 @keyframes storyImage {
   0% { opacity: 1;}
@@ -223,6 +225,7 @@ img{
 p{
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 25px;
 }
 p,
 input,
