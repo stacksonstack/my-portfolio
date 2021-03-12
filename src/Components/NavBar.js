@@ -22,7 +22,6 @@ function NavBar() {
             Blogs
           </NavLink>
         </li>
-
         <li>
           <NavLink activeStyle={{ color:'#5754a8' }} to="/contact">
             Contact
