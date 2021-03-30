@@ -110,54 +110,66 @@ a:hover p {
   justify-content: center;
 }
 
-#story-image{
+#story-container{
   position: relative;
 }
-#story-text, #story-text2, #story-image2, #story-text3, #story-image3{
+#story-text, #story-text2, #story-image2, #story-text3, #story-image3, #story-text4, #story-image4{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-#story-text, #story-text2, #story-text3{
+#story-text, #story-text2, #story-text3, #story-text4{
   width: 100%;
 }
 #story-text{
   opacity: 0%;
   animation-name: storyText;
-  animation-duration: 50s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 #story-text2{
   opacity: 0%;
   animation-name: storyText2;
-  animation-duration: 50s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 #story-text3{
   opacity: 0%;
   animation-name: storyText3;
-  animation-duration: 50s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-#laguardia{
+#story-text4{
+  opacity: 0%;
+  animation-name: storyText4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#story-image{
   opacity: 0%;
   animation-name: storyImage;
-  animation-duration: 50s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 #story-image2{
   opacity: 0%;
   animation-name: storyImage2;
-  animation-duration: 50s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 #story-image3{
   opacity: 0%;
   animation-name: storyImage3;
-  animation-duration: 50s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#story-image4{
+  opacity: 0%;
+  animation-name: storyImage4;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
@@ -202,17 +214,35 @@ transform: translate(-50%, -50%);
   67%{opacity: 1;}
   76%{ opacity: 1;}
   77%{ opacity: .2;}
-  99% { opacity: .2;}
+  89% { opacity: .2;}
+  90% { opacity: 0;}
   100%{opacity: 0;}
 }
 @keyframes storyText3 {
   0% { opacity: 0;}
   76%{opacity: 0;}
   77%{ opacity: 1;}
-  99%{opacity: 1;}
+  89%{opacity: 1;}
+  90%{opacity: 0;}
   100% { opacity: 0;}
 }
 
+@keyframes storyImage4 {
+  0% { opacity: 0;}
+  89% { opacity: 0;}
+  90%{ opacity: 1;} 
+  95%{ opacity: 1;}
+  96%{ opacity: .2;}
+  99%{ opacity: .2;}
+  100%{opacity: 0;}
+}
+@keyframes storyText4 {
+  0% { opacity: 0;}
+  95%{ opacity: 0;}
+  96%{ opacity: 1;}
+  99%{ opacity: 1;}
+  100% { opacity: 0;}
+}
 
 img{
   width: 400px;
