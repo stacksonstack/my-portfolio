@@ -126,121 +126,121 @@ transform: translate(-50%, -50%);
 #story-text{
   opacity: 0%;
   animation-name: storyText;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-text2{
   opacity: 0%;
   animation-name: storyText2;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 
 #story-text3{
   opacity: 0%;
   animation-name: storyText3;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-text4{
   opacity: 0%;
   animation-name: storyText4;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-image{
   opacity: 0%;
   animation-name: storyImage;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-image2{
   opacity: 0%;
   animation-name: storyImage2;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-image3{
   opacity: 0%;
   animation-name: storyImage3;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 #story-image4{
   opacity: 0%;
   animation-name: storyImage4;
-  animation-duration: 10s;
+  animation-duration: 81s;
   animation-iteration-count: infinite;
 }
 
 
 @keyframes storyImage {
   0% { opacity: 1;}
-  10% { opacity: 1;}
-  11%{ opacity: 0.2;}
-  33%{ opacity: 0.2;}
-  34%{ opacity: 0;}
+  4.9% { opacity: 1;}
+  5.0%{ opacity: 0.2;}
+  23.4%{ opacity: 0.2;}
+  23.5%{ opacity: 0;}
   100% { opacity: 0;}
 }
 @keyframes storyText {
   0% { opacity: 0;}
-  10%{ opacity: 0;}
-  11%{ opacity: 1;}
-  33%{ opacity: 1;}
-  34%{ opacity: 0;}
+  4.9%{ opacity: 0;}
+  5.0%{ opacity: 1;}
+  23.4%{ opacity: 1;}
+  23.5%{ opacity: 0;}
   100% { opacity: 0;}
 }
 @keyframes storyImage2 {
   0% { opacity: 0;}
-  33% { opacity: 0;}
-  34% { opacity: 1;}  
-  43%{ opacity: 1;}
-  44%{ opacity: .2;}
-  66%{opacity: .2;}
-  67%{opacity: 0;}
+  23.4% { opacity: 0;}
+  23.5% { opacity: 1;}  
+  28.3%{ opacity: 1;}
+  28.4%{ opacity: .2;}
+  46.8%{opacity: .2;}
+  46.9%{opacity: 0;}
   100% { opacity: 0;}
 }
 @keyframes storyText2 {
   0% { opacity: 0;}
-  43%{opacity: 0;}
-  44%{opacity: 1;}
-  66%{opacity: 1;}
-  67%{opacity: 0;}
+  28.3%{opacity: 0;}
+  28.4%{opacity: 1;}
+  46.8%{opacity: 1;}
+  46.9%{opacity: 0;}
   100% { opacity: 0;}
 }
 @keyframes storyImage3 {
   0% { opacity: 0;}
-  66%{opacity: 0;}
-  67%{opacity: 1;}
-  76%{ opacity: 1;}
-  77%{ opacity: .2;}
-  89% { opacity: .2;}
-  90% { opacity: 0;}
+  46.8%{opacity: 0;}
+  46.9%{opacity: 1;}
+  51.7%{ opacity: 1;}
+  51.8%{ opacity: .2;}
+  70.2% { opacity: .2;}
+  70.3% { opacity: 0;}
   100%{opacity: 0;}
 }
 @keyframes storyText3 {
   0% { opacity: 0;}
-  76%{opacity: 0;}
-  77%{ opacity: 1;}
-  89%{opacity: 1;}
-  90%{opacity: 0;}
+  51.7%{opacity: 0;}
+  51.8%{ opacity: 1;}
+  70.2%{opacity: 1;}
+  70.3%{opacity: 0;}
   100% { opacity: 0;}
 }
 
 @keyframes storyImage4 {
   0% { opacity: 0;}
-  89% { opacity: 0;}
-  90%{ opacity: 1;} 
-  95%{ opacity: 1;}
-  96%{ opacity: .2;}
-  99%{ opacity: .2;}
+  70.2%{opacity: 0;}
+  70.3%{opacity: 1;}
+  75.1%{ opacity: 1;}
+  75.2%{ opacity: .2;}
+  99% { opacity: .2;}
   100%{opacity: 0;}
 }
 @keyframes storyText4 {
   0% { opacity: 0;}
-  95%{ opacity: 0;}
-  96%{ opacity: 1;}
-  99%{ opacity: 1;}
+  75.1%{opacity: 0;}
+  75.2%{ opacity: 1;}
+  99%{opacity: 1;}
   100% { opacity: 0;}
 }
 
