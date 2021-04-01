@@ -21,7 +21,7 @@ function Contact(){
             <form onSubmit={sendEmail}>
                 <input placeholder="Name" name="name" /><br/>
                 <input placeholder="Email" name="email" /><br/>
-                <input placeholder="Your Message" name="message" /><br/>
+                <textarea placeholder="Your Message" name="message" /><br/>
                 <button type="submit" id="contact-btn">Send Email</button>
             </form>
             <div id="contact-icons" > <Icons/></div> 

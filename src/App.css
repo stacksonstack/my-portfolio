@@ -296,9 +296,12 @@ a {
   color: white;
 }
 
-input {
+input, textarea {
   width: 100%;
   height: 40px;
+}
+textarea{
+  max-width: 100%;
 }
 form {
   width: 400px;
