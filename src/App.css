@@ -362,6 +362,10 @@ form {
   margin-top: 10px;
   margin-bottom: 25px;
   font-weight: bold;
+  padding: .3em;
+  padding-right: .7em;
+  padding-left: .7em;
+  
 }
 
 #home-name{

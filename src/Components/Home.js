@@ -14,7 +14,7 @@ function Home(props) {
         I'm a NYC based full-stack developer focusing on creating clean & user
         friendly experiences
       </p>
-      <button id="home-btn" onClick={navigateTo}>Check out my work &#x21E8; </button>
+      <button id="home-btn" onClick={navigateTo}>Check out my work <>&#x21E8;</> </button>
       
       <div id="home-icons"> <Icons /></div>
       </div>
