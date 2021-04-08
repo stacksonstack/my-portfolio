@@ -9,7 +9,9 @@ body {
 .carousel .thumbs {
   display: none;
 }
-
+#about-me-img{
+  width: 400px;
+}
 
 a:hover p {
   color: #5754a8;
