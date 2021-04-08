@@ -6,9 +6,9 @@ body {
   background-image: url("/src/Images/HomeBackground1.jpg");
 }
 
-
-
-
+.carousel .thumbs {
+  display: none;
+}
 
 
 a:hover p {
