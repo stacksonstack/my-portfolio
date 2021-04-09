@@ -13,4 +13,5 @@ https://stacey-carrillo.netlify.app/
 - CSS
 - react-icons (https://react-icons.github.io/react-icons/)
 - emailjs
+- React Responsive Carousel Npm Package 
 - Star icon icon by Icons8
