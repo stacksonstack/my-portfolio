@@ -16,7 +16,7 @@ class CarouselWrapper extends Component {
         </div>
         <div>
           <img
-            id="about-me-img"
+            id="about-me-img-back"
             src="/ProjectImages/aboutMe2.png"
             alt="collage of Stacey, three dogs, 1 cat, and 1 turtle"
           />
@@ -37,7 +37,7 @@ class CarouselWrapper extends Component {
         </div>
         <div>
           <img
-            id="about-me-img"
+            id="about-me-img-back"
             src="/ProjectImages/laGuardia.png"
             alt="school  building with laGuardia logo on the side"
           />
@@ -59,7 +59,7 @@ class CarouselWrapper extends Component {
         </div>
         <div>
           <img
-            id="about-me-img"
+            id="about-me-img-back"
             src="/ProjectImages/flatironSchool.png"
             alt="city buildings with flatiron school logo"
           />
@@ -82,7 +82,7 @@ class CarouselWrapper extends Component {
         </div>
         <div>
           <img
-            id="about-me-img"
+            id="about-me-img-back"
             src="/ProjectImages/graduation.png"
             alt="students celebrating their graduation"
           />

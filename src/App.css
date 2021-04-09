@@ -7,14 +7,27 @@ body {
 }
 
 #legend {
-    bottom: 30%;
+    top: 30%;
+    bottom: 0%;
+    opacity: 1;
+    background: none;
+    padding: .9rem;
 }
+
 
 .carousel .thumbs {
   display: none;
 }
-#about-me-img{
+#about-me-img, #about-me-img-back{
   width: 400px;
+}
+.carousel.carousel-slider .control-arrow {
+
+  color: #5754a8;
+  
+}
+#about-me-img-back{
+  opacity: .3;
 }
 .carousel-root {
   width: 60vw;
@@ -119,7 +132,7 @@ a:hover p {
   height: 200px;
 }
 
-
+/* 
 .story{
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +271,7 @@ transform: translate(-50%, -50%);
   75.2%{ opacity: 1;}
   99%{opacity: 1;}
   100% { opacity: 0;}
-}
+} */
 
 img{
   width: 400px;
