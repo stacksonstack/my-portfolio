@@ -20,7 +20,7 @@ class CarouselWrapper extends Component {
             src="/ProjectImages/aboutMe2.png"
             alt="collage of Stacey, three dogs, 1 cat, and 1 turtle"
           />
-          <p className="legend">
+          <p className="legend" id="legend">
             Hello! My name is Stacey and I'm a 23 yr old, Mexican-American,
             full-stack web developer. FUN FACT: I have 3 dogs, 1 cat, and a
             turtle. If you want to learn more about my journey keep watching
@@ -41,7 +41,7 @@ class CarouselWrapper extends Component {
             src="/ProjectImages/laGuardia.png"
             alt="school  building with laGuardia logo on the side"
           />
-          <p className="legend">
+          <p className="legend" id="legend">
             I first learned how to code during my time at LaGuardia Community
             College. I began by taking free courses on Code Academy to prepare
             for my programming classes. However, it was not until I attended my
@@ -63,7 +63,7 @@ class CarouselWrapper extends Component {
             src="/ProjectImages/flatironSchool.png"
             alt="city buildings with flatiron school logo"
           />
-          <p className="legend">
+          <p className="legend" id="legend">
             A month later, I attended Flatiron School to improve upon my
             programming skills. I worked on labs and built full-stack projects
             with talented software engineering students. I adopted the title
@@ -86,7 +86,7 @@ class CarouselWrapper extends Component {
             src="/ProjectImages/graduation.png"
             alt="students celebrating their graduation"
           />
-          <p className="legend">
+          <p className="legend" id="legend">
             {" "}
             A month later, I attended Flatiron School to improve upon my
             programming skills. I worked on labs and built full-stack projects
