@@ -6,10 +6,35 @@ body {
   background-image: url("/src/Images/HomeBackground1.jpg");
 }
 
+#legend {
+    top: 30%;
+    bottom: 0%;
+    opacity: 1;
+    background: none;
+    padding: .9rem;
+}
 
 
+.carousel .thumbs {
+  display: none;
+}
+#about-me-img, #about-me-img-back{
+  width: 400px;
+}
+.carousel.carousel-slider .control-arrow {
 
-
+  color: #5754a8;
+  
+}
+#about-me-img-back{
+  opacity: .3;
+}
+.carousel-root {
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 a:hover p {
   color: #5754a8;
@@ -57,6 +82,10 @@ a:hover p {
 }
 
 @media (max-width: 800px){
+  .carousel-root {
+    width: 100vw;
+    
+  }
   .project-div{
     width: 100vw;
     height: 100vh;
@@ -103,7 +132,7 @@ a:hover p {
   height: 200px;
 }
 
-
+/* 
 .story{
   display: flex;
   flex-wrap: wrap;
@@ -242,7 +271,7 @@ transform: translate(-50%, -50%);
   75.2%{ opacity: 1;}
   99%{opacity: 1;}
   100% { opacity: 0;}
-}
+} */
 
 img{
   width: 400px;
