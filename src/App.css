@@ -92,6 +92,7 @@ a:hover p {
     
   }
 }
+
 @media (max-width: 800px){
   .carousel-root {
     width: 90vw;
@@ -137,6 +138,15 @@ a:hover p {
  
 }
 
+@media (max-width: 650px){
+  html{
+    width: 100vw;
+  }
+  #form-input{
+    width: 80vw;
+    height: 40px;
+  }
+}
 
 #blog-img{
   width: 200px;
@@ -380,12 +390,14 @@ form {
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 #contact-icons{
   bottom: 0;
   position: fixed;
   padding-bottom: 40px;
+  
 }
 
 .floating{

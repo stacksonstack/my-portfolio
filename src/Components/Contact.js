@@ -14,11 +14,12 @@ function Contact(){
         } )
         }
     return(
+        <>
         <div className="contact-form">
             <h1 className="title-text" >Contact</h1>
             
             <p>Have a question or want to work together?</p>
-            <form onSubmit={sendEmail}>
+            <form onSubmit={sendEmail} id="form-input">
                 <input placeholder="Name" name="name" /><br/>
                 <input placeholder="Email" name="email" /><br/>
                 <textarea placeholder="Your Message" name="message" /><br/>
@@ -26,6 +27,7 @@ function Contact(){
             </form>
             <div id="contact-icons" > <Icons/></div> 
         </div>
+        </>
     )
 }
 
