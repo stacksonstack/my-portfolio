@@ -21,8 +21,8 @@ class CarouselWrapper extends Component {
             alt="collage of Stacey, three dogs, 1 cat, and 1 turtle"
           />
           <p className="legend" id="legend">
-            Hello! My name is Stacey and I'm a 23 yr old, Mexican-American,
-            full-stack web developer. FUN FACT: I have 3 dogs, 1 cat, and a
+            Hello! My name is Stacey and I'm a 23 yr old, NYC Based- Mexican-American,
+            full-stack web developer. Welcome to my portfolio! <br/>FUN FACT: I have 3 dogs, 1 cat, and a
             turtle. If you want to learn more about my journey keep watching
             this animation, otherwise feel free to explore my website or send me
             an email by filling out the form in the contact page.

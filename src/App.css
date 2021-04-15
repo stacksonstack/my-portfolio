@@ -6,14 +6,19 @@ body {
   background-image: url("/src/Images/HomeBackground1.jpg");
 }
 
+
+
 #legend {
-    top: 30%;
+    top: 20%;
     bottom: 0%;
     opacity: 1;
     background: none;
-    padding: .9rem;
+    padding: 1rem;
+    font-size: .9rem;
 }
-
+.carousel-status{
+  color:#5754a8;
+}
 
 .carousel .thumbs {
   display: none;
@@ -30,7 +35,7 @@ body {
   opacity: .3;
 }
 .carousel-root {
-  width: 60vw;
+  width: 45vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,9 +86,15 @@ a:hover p {
   grid-area: pLinks;
 }
 
+@media (max-width: 1100px){
+  .carousel-root {
+    width: 70vw;
+    
+  }
+}
 @media (max-width: 800px){
   .carousel-root {
-    width: 100vw;
+    width: 90vw;
     
   }
   .project-div{
@@ -284,7 +295,7 @@ img{
 p{
   padding-left: 10px;
   padding-right: 10px;
-  line-height: 25px;
+  line-height: 30px;
 }
 p,
 input,
