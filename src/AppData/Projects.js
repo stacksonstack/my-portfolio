@@ -55,5 +55,16 @@ export default function projects() {
         backend_link: null,
         tech: "Active Record | TTY | Ruby | artii | figlet | colorize | RestClient"
       },
+      {
+        title: "The Beatles Fan Page",
+        projId: "theBeatlesFanPage",
+        picture: "/ProjectImages/theBeatlesFanSite.png",
+        description:
+          "This application was created for our Web Development I class at LaGuardia Community College. The app includes a Beatles Mix & Match card game, a soundboard that plays a preview of the clicked song, a mini adventure game and a dedicated page for a few of their albums. Check it out! I'm currently working on creating a React version of this application. :)",
+        frontend_link: "https://github.com/stacksonstack/beatlesProject",
+        demo_link: null,
+        backend_link: null,
+        tech: "Javascript | HTML | CSS | Bootstrap"
+      },
   ];
 }
