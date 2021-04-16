@@ -15,7 +15,7 @@ function Project({
       <div className="project-container">
         <div className="project-div" id={projId}>
           <div className="proj-title">
-            <h1 className="title-text">{title}</h1>
+            <h1 className="title-text" id="long-text">{title}</h1>
           </div>
           <div className="proj-img">
             <img src={picture} alt="Project UI" id="project-image" />
@@ -38,15 +38,17 @@ function Project({
               </a>
             ) : null}
           </div>
-        </div>
-        
-        {title === "Scrambled" ? null : (
+          <div className="proj-next-btn">
+          {title === "Scrambled" ? null : (
           <a href={nextProject}>
             <p id="keep-scrolling" className="floating">
               &#8681;
             </p>
           </a>
         )}
+            </div>
+        </div>
+        
       </div>
     </>
   );

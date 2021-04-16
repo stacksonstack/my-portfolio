@@ -58,8 +58,9 @@ a:hover p {
   grid-template-areas: 
   "pTitle pTitle"
   "pImg pDesc"
-  "pImg pLinks";
-  grid-template-rows: 150px 150px 150px;
+  "pImg pLinks"
+  "nextBtn nextBtn";
+  grid-template-rows: 150px 150px 150px 150px;
 }
 
 #project-image{
@@ -69,6 +70,9 @@ a:hover p {
 }
 .proj-title{
   grid-area: pTitle;
+}
+.proj-next-btn{
+  grid-area: nextBtn;
 }
 .proj-img{
   grid-area: pImg;
@@ -94,6 +98,9 @@ a:hover p {
 }
 
 @media (max-width: 800px){
+  html{
+    width: 100vw;
+  }
   .carousel-root {
     width: 90vw;
     
@@ -108,8 +115,9 @@ a:hover p {
     "pTitle"
     "pImg" 
     "pDesc"
-    "pLinks";
-    
+    "pLinks"
+    "nextBtn";
+    grid-template-rows: 150px 170px 100px 300px;
   }
   #project-image{
     width: 200px;
@@ -146,6 +154,41 @@ a:hover p {
     width: 80vw;
     height: 40px;
   }
+  .title-text, #links, #desc, #keep-scrolling{
+    text-align: start;
+    margin-left: 20px;
+    padding-left: 0px;
+  }
+  
+  #long-text{
+    font-size: 50px;
+  }
+
+
+  #desc{
+    max-width: 280px;
+  }
+  #project-image{
+    display: initial;
+    margin-left: 20px;
+  }
+  .project-div{
+    
+    min-height: 800px;
+    margin-left: 0px;
+    grid-template-areas: 
+    "pTitle"
+    "pImg" 
+    "pDesc"
+    "pLinks"
+    "nextBtn";
+    grid-template-rows: 120px 170px 200px 270px;
+  }
+  .project-container{
+    height: 800px;
+  }
+  
+  
 }
 
 #blog-img{
