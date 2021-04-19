@@ -88,13 +88,13 @@ class CarouselWrapper extends Component {
           />
           <p className="legend" id="legend">
             {" "}
-            A month later, I attended Flatiron School to improve upon my
-            programming skills. I worked on labs and built full-stack projects
-            with talented software engineering students. I adopted the title
-            CSStacey as I helped many in my cohort learn how to write modern
-            CSS. Collaborating with my peers enabled me to solidify CSS concepts
-            such as Flexbox, Grid, Animations, and many more. I graduated in
-            January 2020.{" "}
+            I'm currently working to improve my skills as a Software Engineer by
+            practicing algorithms on websites like Leet Code & HackerRank. I've
+            also begun to refactor my passion projects which feature a Beatles
+            fan site written in React as well as build a website for a small nyc based company, Heavenly Delights. I'm also working to improve my
+            portfolio website. My next goal is to obtain my first position as a
+            front-end developer and work in a team of people who share my
+            passion for building beautiful, user-friendly applications!.{" "}
           </p>
         </div>
       </Carousel>
