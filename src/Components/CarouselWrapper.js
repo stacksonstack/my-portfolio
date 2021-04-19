@@ -91,7 +91,7 @@ class CarouselWrapper extends Component {
             I'm currently working to improve my skills as a Software Engineer by
             practicing algorithms on websites like Leet Code & HackerRank. I've
             also begun to refactor my passion projects which feature a Beatles
-            fan site written in React as well as build a website for a small nyc based company, Heavenly Delights. I'm also working to improve my
+            fan site written in React. I'm also building a website for a small nyc based company, Heavenly Delights. I'm continuing to improve my
             portfolio website. My next goal is to obtain my first position as a
             front-end developer and work in a team of people who share my
             passion for building beautiful, user-friendly applications!.{" "}
