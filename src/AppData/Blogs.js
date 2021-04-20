@@ -2,6 +2,14 @@ export default function Blogs() {
   return [
     {
       title:
+        "Steps for Solving Any Algorithm",
+      link:
+        "https://staceycarrillo.medium.com/steps-for-solving-any-algorithm-2207bb14692f",
+      picture: "/ProjectImages/blogAlgorithm.png",
+      date: "April 19, 2020",
+    },
+    {
+      title:
         "NPM vs Yarn",
       link:
         "https://staceycarrillo.medium.com/npm-vs-yarn-5454ffbf739f",
@@ -46,5 +54,6 @@ export default function Blogs() {
       picture: "/ProjectImages/blogDesign.png",
       date: "Sept 30, 2020",
     },
+    
   ];
 }
